@@ -1,6 +1,8 @@
 #include<string>
 #include<vector>
 
+//풀이 원리 숫자를 %2로 나눈다.
+
 std::string solution(int num) {
     std::string answer = "";
     if (num == 0) {
